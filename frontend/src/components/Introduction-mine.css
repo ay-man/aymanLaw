@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #17141d;
+    color: white;
+    font-family: 'DM Mono', monospace;
+    overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Ensures the congress container fits as a banner */
+.congress {
+    position: relative;
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    justify-content: center; /* Center children vertically */
+    align-items: center; /* Center children horizontally */
+    width: 100vw; /* Full width of the viewport */
+    max-height: 100vh; /* Max height is the full height of the viewport */
+    overflow: hidden; /* Hide anything that goes outside this container */
+    padding: 2rem;
+}
+
+.card-list {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto; /* Allow horizontal scrolling */
+    max-width: 100%; /* Ensure it doesn't exceed the width of its container */
+    scroll-snap-type: x mandatory; /* Enhanced scroll behavior */
+}
+
+.card-list::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+.card-list::-webkit-scrollbar-thumb {
+    background: #201c29;
+    border-radius: 10px;
+    box-shadow: inset 2px 2px 2px hsla(0,0%,100%,.25), inset -2px -2px 2px rgba(0,0,0,.25);
+}
+
+.card-list::-webkit-scrollbar-track {
+    background: linear-gradient(90deg,#201c29,#201c29 1px,#17141d 0,#17141d);
+}
+
+.card {
+    flex: 0 0 auto; /* Don't grow, don't shrink, base size on content */
+    max-width: 90%; /* Make card width responsive */
+    height: auto; /* Adjust height as needed */
+    padding: 1.5rem;
+    border-radius: 16px;
+    background: #17141d;
+    box-shadow: -1rem 0 3rem #000;
+    display: flex;
+    flex-direction: column;
+    margin: 0 1rem; /* Adjust space between cards */
+    scroll-snap-align: start;
+    clear: both;
+    position: relative;
+}
+
+.card.moving {
+    transition: transform 0.2s;
+}
+
+.card.removed {
+    transition: transform 0.5s ease-in-out;
+    opacity: 0;
+}
+
+.card:focus-within~.card, .card:hover~.card {
+    transform: translateX(130px);
+}
+
+.card:hover {
+    transform: translateY(-1rem);
+}
+
+.card:not(:first-child) {
+    margin-left: -130px;
+}
+
+/* ... existing styles for card-header, card-author, tags, and other elements ... */
+
+#nope, #love {
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    background-color: #ff8a00;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'DM Mono', monospace;
+}
+
+#nope:hover, #love:hover {
+    background-color: #e52e71;
+}
+
+#queryForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+#userQuery {
+    padding: 0.5rem;
+    margin-right: 1rem;
+    font-size: 1rem;
+    font-family: 'DM Mono', monospace;
+}
+
+@media (max-width: 600px) {
+    .card {
+        /* Adjust card sizes for smaller screens */
+        width: 100%;
+    }
+}
+

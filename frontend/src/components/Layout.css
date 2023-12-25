@@ -1,0 +1,10 @@
+@media (max-width: 450px) {
+  #bodyContent {
+    padding:0;
+  }
+
+  #websiteName {
+    font-size: 1.00rem;
+  }
+
+}

@@ -1,0 +1,16 @@
+#introductionContainer{
+  width: 98%;
+  margin-left: 1%;
+}
+
+#introText{
+  width: 60%;
+  margin-left: 20%;
+}
+
+@media (max-width: 850px) {
+  #introText{
+    width: 80%;
+    margin-left: 10%;
+  }
+}

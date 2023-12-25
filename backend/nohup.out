@@ -1,0 +1,213 @@
+
+> backend@1.0.0 start
+> node server.js
+
+Example app listening at http://localhost:8080
+TypeError [ERR_HTTP_INVALID_HEADER_VALUE]: Invalid value "undefined" for header "Access-Control-Allow-Origin"
+    at ServerResponse.setHeader (node:_http_outgoing:647:3)
+    at /repos/muckraker/backend/server.js:23:9
+    at Layer.handle [as handle_request] (/repos/muckraker/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/repos/muckraker/backend/node_modules/express/lib/router/index.js:317:13)
+    at /repos/muckraker/backend/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/repos/muckraker/backend/node_modules/express/lib/router/index.js:335:12)
+    at next (/repos/muckraker/backend/node_modules/express/lib/router/index.js:275:10)
+    at expressInit (/repos/muckraker/backend/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/repos/muckraker/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/repos/muckraker/backend/node_modules/express/lib/router/index.js:317:13)
+TypeError [ERR_HTTP_INVALID_HEADER_VALUE]: Invalid value "undefined" for header "Access-Control-Allow-Origin"
+    at ServerResponse.setHeader (node:_http_outgoing:647:3)
+    at /repos/muckraker/backend/server.js:23:9
+    at Layer.handle [as handle_request] (/repos/muckraker/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/repos/muckraker/backend/node_modules/express/lib/router/index.js:317:13)
+    at /repos/muckraker/backend/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/repos/muckraker/backend/node_modules/express/lib/router/index.js:335:12)
+    at next (/repos/muckraker/backend/node_modules/express/lib/router/index.js:275:10)
+    at expressInit (/repos/muckraker/backend/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/repos/muckraker/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/repos/muckraker/backend/node_modules/express/lib/router/index.js:317:13)
+TypeError [ERR_HTTP_INVALID_HEADER_VALUE]: Invalid value "undefined" for header "Access-Control-Allow-Origin"
+    at ServerResponse.setHeader (node:_http_outgoing:647:3)
+    at /repos/muckraker/backend/server.js:23:9
+    at Layer.handle [as handle_request] (/repos/muckraker/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/repos/muckraker/backend/node_modules/express/lib/router/index.js:317:13)
+    at /repos/muckraker/backend/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/repos/muckraker/backend/node_modules/express/lib/router/index.js:335:12)
+    at next (/repos/muckraker/backend/node_modules/express/lib/router/index.js:275:10)
+    at expressInit (/repos/muckraker/backend/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/repos/muckraker/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/repos/muckraker/backend/node_modules/express/lib/router/index.js:317:13)
+TypeError [ERR_HTTP_INVALID_HEADER_VALUE]: Invalid value "undefined" for header "Access-Control-Allow-Origin"
+    at ServerResponse.setHeader (node:_http_outgoing:647:3)
+    at /repos/muckraker/backend/server.js:23:9
+    at Layer.handle [as handle_request] (/repos/muckraker/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/repos/muckraker/backend/node_modules/express/lib/router/index.js:317:13)
+    at /repos/muckraker/backend/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/repos/muckraker/backend/node_modules/express/lib/router/index.js:335:12)
+    at next (/repos/muckraker/backend/node_modules/express/lib/router/index.js:275:10)
+    at expressInit (/repos/muckraker/backend/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/repos/muckraker/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/repos/muckraker/backend/node_modules/express/lib/router/index.js:317:13)
+TypeError [ERR_HTTP_INVALID_HEADER_VALUE]: Invalid value "undefined" for header "Access-Control-Allow-Origin"
+    at ServerResponse.setHeader (node:_http_outgoing:647:3)
+    at /repos/muckraker/backend/server.js:23:9
+    at Layer.handle [as handle_request] (/repos/muckraker/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/repos/muckraker/backend/node_modules/express/lib/router/index.js:317:13)
+    at /repos/muckraker/backend/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/repos/muckraker/backend/node_modules/express/lib/router/index.js:335:12)
+    at next (/repos/muckraker/backend/node_modules/express/lib/router/index.js:275:10)
+    at expressInit (/repos/muckraker/backend/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/repos/muckraker/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/repos/muckraker/backend/node_modules/express/lib/router/index.js:317:13)
+TypeError [ERR_HTTP_INVALID_HEADER_VALUE]: Invalid value "undefined" for header "Access-Control-Allow-Origin"
+    at ServerResponse.setHeader (node:_http_outgoing:647:3)
+    at /repos/muckraker/backend/server.js:23:9
+    at Layer.handle [as handle_request] (/repos/muckraker/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/repos/muckraker/backend/node_modules/express/lib/router/index.js:317:13)
+    at /repos/muckraker/backend/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/repos/muckraker/backend/node_modules/express/lib/router/index.js:335:12)
+    at next (/repos/muckraker/backend/node_modules/express/lib/router/index.js:275:10)
+    at expressInit (/repos/muckraker/backend/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/repos/muckraker/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/repos/muckraker/backend/node_modules/express/lib/router/index.js:317:13)
+TypeError [ERR_HTTP_INVALID_HEADER_VALUE]: Invalid value "undefined" for header "Access-Control-Allow-Origin"
+    at ServerResponse.setHeader (node:_http_outgoing:647:3)
+    at /repos/muckraker/backend/server.js:23:9
+    at Layer.handle [as handle_request] (/repos/muckraker/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/repos/muckraker/backend/node_modules/express/lib/router/index.js:317:13)
+    at /repos/muckraker/backend/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/repos/muckraker/backend/node_modules/express/lib/router/index.js:335:12)
+    at next (/repos/muckraker/backend/node_modules/express/lib/router/index.js:275:10)
+    at expressInit (/repos/muckraker/backend/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/repos/muckraker/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/repos/muckraker/backend/node_modules/express/lib/router/index.js:317:13)
+TypeError [ERR_HTTP_INVALID_HEADER_VALUE]: Invalid value "undefined" for header "Access-Control-Allow-Origin"
+    at ServerResponse.setHeader (node:_http_outgoing:647:3)
+    at /repos/muckraker/backend/server.js:23:9
+    at Layer.handle [as handle_request] (/repos/muckraker/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/repos/muckraker/backend/node_modules/express/lib/router/index.js:317:13)
+    at /repos/muckraker/backend/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/repos/muckraker/backend/node_modules/express/lib/router/index.js:335:12)
+    at next (/repos/muckraker/backend/node_modules/express/lib/router/index.js:275:10)
+    at expressInit (/repos/muckraker/backend/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/repos/muckraker/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/repos/muckraker/backend/node_modules/express/lib/router/index.js:317:13)
+TypeError [ERR_HTTP_INVALID_HEADER_VALUE]: Invalid value "undefined" for header "Access-Control-Allow-Origin"
+    at ServerResponse.setHeader (node:_http_outgoing:647:3)
+    at /repos/muckraker/backend/server.js:23:9
+    at Layer.handle [as handle_request] (/repos/muckraker/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/repos/muckraker/backend/node_modules/express/lib/router/index.js:317:13)
+    at /repos/muckraker/backend/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/repos/muckraker/backend/node_modules/express/lib/router/index.js:335:12)
+    at next (/repos/muckraker/backend/node_modules/express/lib/router/index.js:275:10)
+    at expressInit (/repos/muckraker/backend/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/repos/muckraker/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/repos/muckraker/backend/node_modules/express/lib/router/index.js:317:13)
+TypeError [ERR_HTTP_INVALID_HEADER_VALUE]: Invalid value "undefined" for header "Access-Control-Allow-Origin"
+    at ServerResponse.setHeader (node:_http_outgoing:647:3)
+    at /repos/muckraker/backend/server.js:23:9
+    at Layer.handle [as handle_request] (/repos/muckraker/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/repos/muckraker/backend/node_modules/express/lib/router/index.js:317:13)
+    at /repos/muckraker/backend/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/repos/muckraker/backend/node_modules/express/lib/router/index.js:335:12)
+    at next (/repos/muckraker/backend/node_modules/express/lib/router/index.js:275:10)
+    at expressInit (/repos/muckraker/backend/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/repos/muckraker/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/repos/muckraker/backend/node_modules/express/lib/router/index.js:317:13)
+
+> backend@1.0.0 start
+> node server.js
+
+Example app listening at http://localhost:8080
+TypeError [ERR_HTTP_INVALID_HEADER_VALUE]: Invalid value "undefined" for header "Access-Control-Allow-Origin"
+    at ServerResponse.setHeader (node:_http_outgoing:647:3)
+    at /repos/muckraker/backend/server.js:23:9
+    at Layer.handle [as handle_request] (/repos/muckraker/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/repos/muckraker/backend/node_modules/express/lib/router/index.js:317:13)
+    at /repos/muckraker/backend/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/repos/muckraker/backend/node_modules/express/lib/router/index.js:335:12)
+    at next (/repos/muckraker/backend/node_modules/express/lib/router/index.js:275:10)
+    at expressInit (/repos/muckraker/backend/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/repos/muckraker/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/repos/muckraker/backend/node_modules/express/lib/router/index.js:317:13)
+TypeError [ERR_HTTP_INVALID_HEADER_VALUE]: Invalid value "undefined" for header "Access-Control-Allow-Origin"
+    at ServerResponse.setHeader (node:_http_outgoing:647:3)
+    at /repos/muckraker/backend/server.js:23:9
+    at Layer.handle [as handle_request] (/repos/muckraker/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/repos/muckraker/backend/node_modules/express/lib/router/index.js:317:13)
+    at /repos/muckraker/backend/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/repos/muckraker/backend/node_modules/express/lib/router/index.js:335:12)
+    at next (/repos/muckraker/backend/node_modules/express/lib/router/index.js:275:10)
+    at expressInit (/repos/muckraker/backend/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/repos/muckraker/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/repos/muckraker/backend/node_modules/express/lib/router/index.js:317:13)
+TypeError [ERR_HTTP_INVALID_HEADER_VALUE]: Invalid value "undefined" for header "Access-Control-Allow-Origin"
+    at ServerResponse.setHeader (node:_http_outgoing:647:3)
+    at /repos/muckraker/backend/server.js:23:9
+    at Layer.handle [as handle_request] (/repos/muckraker/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/repos/muckraker/backend/node_modules/express/lib/router/index.js:317:13)
+    at /repos/muckraker/backend/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/repos/muckraker/backend/node_modules/express/lib/router/index.js:335:12)
+    at next (/repos/muckraker/backend/node_modules/express/lib/router/index.js:275:10)
+    at expressInit (/repos/muckraker/backend/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/repos/muckraker/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/repos/muckraker/backend/node_modules/express/lib/router/index.js:317:13)
+TypeError [ERR_HTTP_INVALID_HEADER_VALUE]: Invalid value "undefined" for header "Access-Control-Allow-Origin"
+    at ServerResponse.setHeader (node:_http_outgoing:647:3)
+    at /repos/muckraker/backend/server.js:23:9
+    at Layer.handle [as handle_request] (/repos/muckraker/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/repos/muckraker/backend/node_modules/express/lib/router/index.js:317:13)
+    at /repos/muckraker/backend/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/repos/muckraker/backend/node_modules/express/lib/router/index.js:335:12)
+    at next (/repos/muckraker/backend/node_modules/express/lib/router/index.js:275:10)
+    at expressInit (/repos/muckraker/backend/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/repos/muckraker/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/repos/muckraker/backend/node_modules/express/lib/router/index.js:317:13)
+TypeError [ERR_HTTP_INVALID_HEADER_VALUE]: Invalid value "undefined" for header "Access-Control-Allow-Origin"
+    at ServerResponse.setHeader (node:_http_outgoing:647:3)
+    at /repos/muckraker/backend/server.js:23:9
+    at Layer.handle [as handle_request] (/repos/muckraker/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/repos/muckraker/backend/node_modules/express/lib/router/index.js:317:13)
+    at /repos/muckraker/backend/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/repos/muckraker/backend/node_modules/express/lib/router/index.js:335:12)
+    at next (/repos/muckraker/backend/node_modules/express/lib/router/index.js:275:10)
+    at expressInit (/repos/muckraker/backend/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/repos/muckraker/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/repos/muckraker/backend/node_modules/express/lib/router/index.js:317:13)
+TypeError [ERR_HTTP_INVALID_HEADER_VALUE]: Invalid value "undefined" for header "Access-Control-Allow-Origin"
+    at ServerResponse.setHeader (node:_http_outgoing:647:3)
+    at /repos/muckraker/backend/server.js:23:9
+    at Layer.handle [as handle_request] (/repos/muckraker/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/repos/muckraker/backend/node_modules/express/lib/router/index.js:317:13)
+    at /repos/muckraker/backend/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/repos/muckraker/backend/node_modules/express/lib/router/index.js:335:12)
+    at next (/repos/muckraker/backend/node_modules/express/lib/router/index.js:275:10)
+    at expressInit (/repos/muckraker/backend/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/repos/muckraker/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/repos/muckraker/backend/node_modules/express/lib/router/index.js:317:13)
+TypeError [ERR_HTTP_INVALID_HEADER_VALUE]: Invalid value "undefined" for header "Access-Control-Allow-Origin"
+    at ServerResponse.setHeader (node:_http_outgoing:647:3)
+    at /repos/muckraker/backend/server.js:23:9
+    at Layer.handle [as handle_request] (/repos/muckraker/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/repos/muckraker/backend/node_modules/express/lib/router/index.js:317:13)
+    at /repos/muckraker/backend/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/repos/muckraker/backend/node_modules/express/lib/router/index.js:335:12)
+    at next (/repos/muckraker/backend/node_modules/express/lib/router/index.js:275:10)
+    at expressInit (/repos/muckraker/backend/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/repos/muckraker/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/repos/muckraker/backend/node_modules/express/lib/router/index.js:317:13)
+TypeError [ERR_HTTP_INVALID_HEADER_VALUE]: Invalid value "undefined" for header "Access-Control-Allow-Origin"
+    at ServerResponse.setHeader (node:_http_outgoing:647:3)
+    at /repos/muckraker/backend/server.js:23:9
+    at Layer.handle [as handle_request] (/repos/muckraker/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/repos/muckraker/backend/node_modules/express/lib/router/index.js:317:13)
+    at /repos/muckraker/backend/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/repos/muckraker/backend/node_modules/express/lib/router/index.js:335:12)
+    at next (/repos/muckraker/backend/node_modules/express/lib/router/index.js:275:10)
+    at expressInit (/repos/muckraker/backend/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/repos/muckraker/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/repos/muckraker/backend/node_modules/express/lib/router/index.js:317:13)
+
+> backend@1.0.0 start
+> node server.js
+
+Example app listening at http://localhost:8080
